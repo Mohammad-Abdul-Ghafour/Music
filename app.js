@@ -8,7 +8,8 @@
 //   var r = confirm("Do you love Music" + name)
 //   if (r == true) {
 //     var favMusic = prompt("What is you favorite music type?")
-//     if(favMusic == "Arabic"){
+      // favMusic = favMusic.toLowerCase()
+//     if(favMusic == "arabic"){
 // alert("We have the perfect selection for you")
 // document.write(
 //   "<div>" + "<h3>" + favMusic +"</h3>"
