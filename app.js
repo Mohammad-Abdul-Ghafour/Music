@@ -30,7 +30,7 @@ while(fovInstrument != "guitar"){
 
 
 
-
+function favMusicFun (){
 
 var r = confirm("Do you love Music " + name)
 if (r == true) {
@@ -58,10 +58,12 @@ if (r == true) {
 
 } else {
   alert("We are sorry to hear that, but check our website you may change your mind ")
-}
+}}
+favMusicFun ();
   // }
 
  
-console.log('test')
-
-document.write("<script>var rate = prompt('Rate our website from 1 to 5');document.write('<section class="+"col"+"><div class="+"col1"+"><h4>'+rate+' out of 5 </h4></div></section>')</script><section class="+"col"+"><div class="+"col1"+"><script>for (let i1 = 0; i1<rate;i1++){document.write('<img src="+"https://starpng.com/public/uploads/preview/golden-star-png-21573888480jsiv6fmfyj.png"+" alt="+"Global Selection"+" width="+"300"+" height="+"300"+" title="+"Global Selection"+">')}</script></div></section>")
+// console.log('test')
+function rateUs (){
+document.write("<script>var rate = prompt('Rate our website from 1 to 5');document.write('<section class="+"col"+"><div class="+"col1"+"><h4>'+rate+' out of 5 </h4></div></section>')</script><section class="+"col"+"><div class="+"col1"+"><script>for (let i1 = 0; i1<rate;i1++){document.write('<img src="+"https://starpng.com/public/uploads/preview/golden-star-png-21573888480jsiv6fmfyj.png"+" alt="+"Global Selection"+" width="+"300"+" height="+"300"+" title="+"Global Selection"+">')}</script></div></section>")}
+rateUs ();
